@@ -1,17 +1,17 @@
 class Gensx < Formula
   desc "GenSX CLI - The command-line interface for GenSX"
   homepage "https://gensx.com"
-  version "jeremy-cli-d5bebc7980cfd8c2dfe6dd7e5bd6b9b167d8bef4"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-vjeremy-cli-d5bebc7980cfd8c2dfe6dd7e5bd6b9b167d8bef4/gensx_jeremy-cli-d5bebc7980cfd8c2dfe6dd7e5bd6b9b167d8bef4_node22-macos-arm64.tar.gz"
-      sha256 "9a429df4f88bb182bf274e4ea3c8dcffc5f5d69b7e4f4f950294be3b7b87f250"
+      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.1.1/gensx_0.1.1_node22-macos-arm64.tar.gz"
+      sha256 "7ba00c81ceee08fc83fc5173663c724508e5cfbb5cc0cfeb1c3aa32530800900"
     end
     on_intel do
-      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-vjeremy-cli-d5bebc7980cfd8c2dfe6dd7e5bd6b9b167d8bef4/gensx_jeremy-cli-d5bebc7980cfd8c2dfe6dd7e5bd6b9b167d8bef4_node22-macos-x64.tar.gz"
-      sha256 "58bb872d1843538fa94dfbd13274148df3979c623b33ddd5bf4bff84c1a905e9"
+      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.1.1/gensx_0.1.1_node22-macos-x64.tar.gz"
+      sha256 "160cfba1b27ee3c24e3df3a647d7e1c0d3be659638464ad97bc6e7ef8f7680bd"
     end
   end
 
