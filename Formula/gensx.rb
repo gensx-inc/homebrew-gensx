@@ -7,11 +7,11 @@ class Gensx < Formula
   on_macos do
     on_arm do
       url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.3.0/gensx_0.3.0_macos-arm64.tar.gz"
-      sha256 "7b697d8b72f9dbb161db4a3ca63f5f015fba56c01708903becdab49a46cefb26"
+      sha256 "6ebfc800b51447dca0607e8ee2dcc897fb9914bc077adc4b9f047470c3cd95ee"
     end
     on_intel do
       url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.3.0/gensx_0.3.0_macos-x64.tar.gz"
-      sha256 "3be53cdb8a9b64d15cb893a4a635a31d08fda0ae4d622698ffa3d76c2a58b7a8"
+      sha256 "54bfdeba1f673b672eaff01a6055ae271ea2a027389ea0916d48935d670986ab"
     end
   end
 
