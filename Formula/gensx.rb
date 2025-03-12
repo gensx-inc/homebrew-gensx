@@ -1,17 +1,17 @@
 class Gensx < Formula
   desc "GenSX CLI - The command-line interface for GenSX"
   homepage "https://gensx.com"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.3.4/gensx_0.3.4_macos-arm64.tar.gz"
-      sha256 "4adbbba9b1aced5b3bffbdd52e6f1de606fc842488df90f4922d7e2f30f85569"
+      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.3.5/gensx_0.3.5_macos-arm64.tar.gz"
+      sha256 "6a9c0ea7c361512e2565563bc568e7502bf37e94de2a07b05cd7817e473b923b"
     end
     on_intel do
-      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.3.4/gensx_0.3.4_macos-x64.tar.gz"
-      sha256 "6e3a5cc6cd71ba19d3f088452a1289405befff14c325bdb43d2881f6aa2ffccf"
+      url "https://github.com/gensx-inc/gensx/releases/download/gensx-cli-binary-v0.3.5/gensx_0.3.5_macos-x64.tar.gz"
+      sha256 "edbbdc01ed2c9ba32ae8ff0c1a523fedf3b4d9962191e426279a9b84b05e8879"
     end
   end
 
